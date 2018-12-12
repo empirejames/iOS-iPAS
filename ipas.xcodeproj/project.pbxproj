@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24C76ECE9B07E8DB281BD502 /* Pods_ipas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE7F7925F51503CE4FC250E /* Pods_ipas.framework */; };
+		F6113F5221C0F17600531FBE /* GradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6113F5121C0F17600531FBE /* GradientLayer.swift */; };
+		F64FC96121B7D19F00F7D2E3 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64FC96021B7D19F00F7D2E3 /* QuestionViewController.swift */; };
+		F64FC96321B7DCC400F7D2E3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F64FC96221B7DCC400F7D2E3 /* GoogleService-Info.plist */; };
+		F64FC96521B8CFD100F7D2E3 /* examItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64FC96421B8CFD100F7D2E3 /* examItemModel.swift */; };
 		F69F87E621B77F850070728A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69F87E521B77F850070728A /* AppDelegate.swift */; };
 		F69F87E821B77F860070728A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69F87E721B77F860070728A /* ViewController.swift */; };
 		F69F87EB21B77F860070728A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69F87E921B77F860070728A /* Main.storyboard */; };
@@ -16,6 +21,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11AF4439623A30F4E8995F05 /* Pods-ipas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ipas.release.xcconfig"; path = "Pods/Target Support Files/Pods-ipas/Pods-ipas.release.xcconfig"; sourceTree = "<group>"; };
+		EFE7F7925F51503CE4FC250E /* Pods_ipas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ipas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2BD6091EAC198850B052A86 /* Pods-ipas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ipas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ipas/Pods-ipas.debug.xcconfig"; sourceTree = "<group>"; };
+		F6113F5121C0F17600531FBE /* GradientLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientLayer.swift; sourceTree = "<group>"; };
+		F64FC95921B7970900F7D2E3 /* ZHDropDownMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ZHDropDownMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F64FC95B21B7972900F7D2E3 /* ZHDropDownMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ZHDropDownMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F64FC95E21B7B7EE00F7D2E3 /* iOSDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F64FC96021B7D19F00F7D2E3 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		F64FC96221B7DCC400F7D2E3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F64FC96421B8CFD100F7D2E3 /* examItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = examItemModel.swift; sourceTree = "<group>"; };
 		F69F87E221B77F850070728A /* ipas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ipas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F69F87E521B77F850070728A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F69F87E721B77F860070728A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,17 +46,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24C76ECE9B07E8DB281BD502 /* Pods_ipas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54E15B87F3AA03E13939FFEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2BD6091EAC198850B052A86 /* Pods-ipas.debug.xcconfig */,
+				11AF4439623A30F4E8995F05 /* Pods-ipas.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		79DFFF9173356854C7EE5513 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F64FC95E21B7B7EE00F7D2E3 /* iOSDropDown.framework */,
+				F64FC95B21B7972900F7D2E3 /* ZHDropDownMenu.framework */,
+				F64FC95921B7970900F7D2E3 /* ZHDropDownMenu.framework */,
+				EFE7F7925F51503CE4FC250E /* Pods_ipas.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F69F87D921B77F850070728A = {
 			isa = PBXGroup;
 			children = (
 				F69F87E421B77F850070728A /* ipas */,
 				F69F87E321B77F850070728A /* Products */,
+				54E15B87F3AA03E13939FFEA /* Pods */,
+				79DFFF9173356854C7EE5513 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +94,17 @@
 		F69F87E421B77F850070728A /* ipas */ = {
 			isa = PBXGroup;
 			children = (
+				F64FC96221B7DCC400F7D2E3 /* GoogleService-Info.plist */,
 				F69F87E521B77F850070728A /* AppDelegate.swift */,
 				F69F87E721B77F860070728A /* ViewController.swift */,
+				F64FC96021B7D19F00F7D2E3 /* QuestionViewController.swift */,
 				F69F87E921B77F860070728A /* Main.storyboard */,
 				F69F87EF21B77F870070728A /* Assets.xcassets */,
 				F69F87F121B77F870070728A /* LaunchScreen.storyboard */,
 				F69F87F421B77F870070728A /* Info.plist */,
 				F69F87EC21B77F860070728A /* ipas.xcdatamodeld */,
+				F64FC96421B8CFD100F7D2E3 /* examItemModel.swift */,
+				F6113F5121C0F17600531FBE /* GradientLayer.swift */,
 			);
 			path = ipas;
 			sourceTree = "<group>";
@@ -74,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F69F87F721B77F870070728A /* Build configuration list for PBXNativeTarget "ipas" */;
 			buildPhases = (
+				818286214F9B292C1320C26B /* [CP] Check Pods Manifest.lock */,
 				F69F87DE21B77F850070728A /* Sources */,
 				F69F87DF21B77F850070728A /* Frameworks */,
 				F69F87E021B77F850070728A /* Resources */,
+				AF4EAB2EF39B81AE37D6E22C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +170,60 @@
 			buildActionMask = 2147483647;
 			files = (
 				F69F87F321B77F870070728A /* LaunchScreen.storyboard in Resources */,
+				F64FC96321B7DCC400F7D2E3 /* GoogleService-Info.plist in Resources */,
 				F69F87F021B77F870070728A /* Assets.xcassets in Resources */,
 				F69F87EB21B77F860070728A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		818286214F9B292C1320C26B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ipas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF4EAB2EF39B81AE37D6E22C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ipas/Pods-ipas-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ipas/Pods-ipas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F69F87DE21B77F850070728A /* Sources */ = {
@@ -140,7 +232,10 @@
 			files = (
 				F69F87E821B77F860070728A /* ViewController.swift in Sources */,
 				F69F87E621B77F850070728A /* AppDelegate.swift in Sources */,
+				F64FC96521B8CFD100F7D2E3 /* examItemModel.swift in Sources */,
+				F64FC96121B7D19F00F7D2E3 /* QuestionViewController.swift in Sources */,
 				F69F87EE21B77F860070728A /* ipas.xcdatamodeld in Sources */,
+				F6113F5221C0F17600531FBE /* GradientLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,11 +379,13 @@
 		};
 		F69F87F821B77F870070728A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2BD6091EAC198850B052A86 /* Pods-ipas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z7M24S6N56;
 				INFOPLIST_FILE = ipas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,11 +399,13 @@
 		};
 		F69F87F921B77F870070728A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11AF4439623A30F4E8995F05 /* Pods-ipas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z7M24S6N56;
 				INFOPLIST_FILE = ipas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
