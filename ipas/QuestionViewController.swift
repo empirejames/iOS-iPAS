@@ -132,10 +132,10 @@ class QuestionViewController: UIViewController {
             randNum = 250
         }else if(selectSubject == "Android程式設計"){
             selectSubject = "mobile_android"
-            randNum = 50
+            randNum = 150
         }else if (selectSubject == "iOS程式設計"){
             selectSubject = "mobile_ios"
-            randNum = 50
+            randNum = 147
         }
          randomNumber(max_number: randNum!, numberOfSelect: numberOfSelect!)
         
